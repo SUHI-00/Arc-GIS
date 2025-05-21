@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Maps of Sri Lanka</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f3e5f5, #e1f5fe);
+      color: #4a148c;
+    }
+
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #8e24aa;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .map-section {
+      margin-top: 30px;
+    }
+
+    .map-section img {
+      width: 80%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+    }
+
+    .map-description {
+      margin-bottom: 50px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #6a1b9a;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Final Maps of Sri Lanka</h1>
+    <p>Visual Insights from Spatial Data Analysis</p>
+  </header>
+
+  <nav>
+    <a href="basic.html">Arc GIS</a>
+    <a href="map.html">Final Maps</a>
+    <a href="arcgis.html">ArcGIS Online</a>
+    <a href="googlemap.html">Google My Map</a>
+  </nav>
+
+  <div class="container">
+    <div class="map-section">
+      <h2>District Clusters of Sri Lanka</h2>
+      <p class="map-description">
+        This map highlights the spatial distribution of socio-economic clusters across the districts of Sri Lanka.
+        Areas with high cluster significance are shaded distinctly to indicate regional disparities.
+        Such visual representation helps policymakers to focus resources effectively in low-performing clusters.
+      </p>
+      <img src="clusters.png" alt="District Clusters of Sri Lanka">
+    </div>
+
+    <div class="map-section">
+      <h2>District Hotspot Map for Males</h2>
+      <p class="map-description">
+        This map visualizes statistically significant cold and hot spots for the male population across Sri Lanka's districts.
+        Pink and purple shades indicate 95% and 90% confidence cold spots, while blue shades show 99% hot spots. This kind of hotspot analysis is vital for targeting specific regions in public health, education, and employment planning.
+      </p>
+      <img src="hotspots.png" alt="District Hotspot Map for Males in Sri Lanka">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Arc GIS Pro | Powered by Esri | Prepared by: S. Suheerman(200849M)
+
+  </footer>
+</body>
+</html>

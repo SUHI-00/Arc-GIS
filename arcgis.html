@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcGIS Online Map</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #fff8e1, #e3f2fd);
+      color: #0d47a1;
+    }
+
+    header {
+      background-color: #1565c0;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #1976d2;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #1565c0;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .launch-button {
+      background-color: #0d47a1;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s;
+    }
+
+    .launch-button:hover {
+      background-color: #1565c0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #1565c0;
+      color: white;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function openApp() {
+      window.open('https://mrt.maps.arcgis.com/apps/instant/imageryviewer/index.html?appid=b8853d641317494cabd246713a93ab8b', '_blank');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>ArcGIS Online Map</h1>
+    <p>Interactive Web Mapping with ArcGIS Online</p>
+  </header>
+
+  <nav>
+    <a href="basic.html">Arc GIS</a>
+    <a href="map.html">Final Maps</a>
+    <a href="arcgis.html">ArcGIS Online</a>
+    <a href="googlemap.html">Google My Map</a>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h2>Map Viewer</h2>
+      <p>
+        The Map Viewer in ArcGIS Online allows users to explore, create, and share interactive maps using real-time spatial data. With intuitive tools for symbolization,
+        filtering, and analysis, users can tell powerful spatial stories and collaborate seamlessly.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Instant Apps</h2>
+      <p>
+        Instant Apps in ArcGIS Online provide a quick way to turn your maps into interactive web applications. With a variety of templates, these apps support storytelling,
+        data exploration, and decision-making across devices.
+      </p>
+      <div class="button-container">
+        <p><strong>Launch the App:</strong> School Network of Kurunegala District</p>
+        <button class="launch-button" onclick="openApp()">Open App</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 ArcGIS Online Viewer | Designed for Smart Mapping | Prepared by: S. Suheerman(200849M)
+  </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcGIS by Esri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      color: #2e7d32;
+    }
+
+    header {
+      background-color: #1b5e20;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #388e3c;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #1b5e20;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .image-gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ArcGIS by Esri</h1>
+    <p>Explore the World with Powerful Mapping and Spatial Analysis Tools</p>
+  </header>
+
+  <nav>
+    <a href="basic.html">Arc GIS</a>
+    <a href="map.html">Final Maps</a>
+    <a href="arcgis.html">ArcGIS Online</a>
+    <a href="googlemap.html">Google My Map</a>
+  </nav>
+
+  <div class="container">
+    <h2>What is ArcGIS?</h2>
+    <p>
+      ArcGIS is a comprehensive geographic information system developed by Esri. It allows users to create, manage, analyze, and map all types of data.
+      ArcGIS helps in making smart decisions based on spatial insights and is widely used across industries including urban planning, environmental science, and defense.
+    </p>
+
+    <div class="image-gallery">
+      <div>
+        <img src="arcmap.png" alt="ArcGIS Desktop">
+        <p>ArcGIS Desktop</p>
+      </div>
+      <div>
+        <img src="arcgispro.png" alt="ArcGIS Pro">
+        <p>ArcGIS Pro</p>
+      </div>
+      <div>
+        <img src="arconline.png" alt="ArcGIS Online">
+        <p>ArcGIS Online</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 ArcGIS by Esri | Designed for Learning | Prepared by: S. Suheerman(200849M)
+  </footer>
+</body>
+</html>
